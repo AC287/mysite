@@ -2,7 +2,7 @@
   margin: 0;
 }
 html, body{
-  background-image: url(./../assets/gifv3.gif);
+  background-image: url(./../assets/code_editor_v2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -17,6 +17,6 @@ html, body{
   width: 100%;
   background-color: #ffffff;
   /*border: 1px solid black;*/
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 }
