@@ -3,6 +3,10 @@
 }
 html, body{
   background-image: url(./../assets/gifv3.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
   /*opacity: 0.25;*/
   height: 100%;
   width: 100%;
