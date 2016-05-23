@@ -12,6 +12,13 @@ html, body{
   height: 100%;
   width: 100%;
 }
+/*.headerimg {
+  height: 200px;
+  background-image: url(./../assets/arthur_nameplate.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/
 #renderReact {
   min-height: 100%;
   margin-bottom: -60px;
@@ -31,3 +38,9 @@ html, body{
 .footer, #renderReact:after {
   height: 60px;
 }
+/*.headerspace {
+  background-image: url(./../assets/arthur_nameplate.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/

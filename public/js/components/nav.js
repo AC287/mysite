@@ -15,7 +15,9 @@ export default React.createClass({
             </ul>
           </div>
         </nav>
+        <div className="renderBody">
         {this.props.children}
+        </div>
       </div>
     )
   }
