@@ -12,7 +12,7 @@ html, body{
   height: 100%;
   width: 100%;
 }
-.renderReact {
+#renderReact {
   min-height: 100%;
   margin-bottom: -60px;
   /*margin: 5px;*/
@@ -28,6 +28,6 @@ html, body{
   /*opacity: 0.2;*/
   /*filter: alpha(opacity=20);*/
 }
-.footer, .renderReact:after {
+.footer, #renderReact:after {
   height: 60px;
 }
