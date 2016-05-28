@@ -21,10 +21,14 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'views')));
+// app.use(express.static(path.join(__dirname, 'views')));
 
-app.get('/', (req, res) => {
-  res.sendFile('index.html');
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views/index.html'));
+  //this fixed cannot GET error refresh on route.
+  // res.render('index.html');
+  // res.sendFile('index.html');
+
 })
 
 const port = process.env.PORT || 3300;

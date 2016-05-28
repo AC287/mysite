@@ -13,12 +13,10 @@ import NotFound from './components/notfound.js'
 let $container = document.getElementById('renderReact');
 
 render((
-  <div>
-    <Router history={browserHistory}>
-      <Route path="/" component={Nav}>
-        <IndexRoute component={Welcome} />
-        <Route path="*" component={NotFound}/>
-      </Route>
-    </Router>
-  </div>
+  <Router history={browserHistory}>
+    <Route path="/" component={Nav}>
+      <IndexRoute component={Welcome} />
+      <Route path="*" component={NotFound}/>
+    </Route>
+  </Router>
 ), $container);
