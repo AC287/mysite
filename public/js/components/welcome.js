@@ -5,8 +5,10 @@ import $ from 'jquery'
 export default React.createClass({
   render: function() {
     return (
-      <div>
-        THIS IS ARTHUR’S PAGE.
+      <div className="container">
+        <div className="profileimg">
+          <img className="img-circle" src="./../assets/ArthurPI.jpg"/>
+        </div>
       </div>
     )
   }

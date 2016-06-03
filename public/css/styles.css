@@ -2,11 +2,11 @@
   margin: 0;
 }
 html, body{
-  background-image: url(./../assets/code_editor_v2.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100%;
+  /*background-image: url(./../assets/code_editor_v2.png);*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  /*background-position: center;*/
+  /*background-size: 100%;*/
   /*background-color: #ffffff;*/
   /*opacity: 0.25;*/
   height: 100%;
@@ -30,16 +30,16 @@ html, body{
   /*background-size: 100%;*/
   /*height: 100%;
   width: 100%;*/
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   /*border: 1px solid black;*/
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  /*opacity: 0.9;*/
+  /*filter: alpha(opacity=90);*/
 }
 .footer, #renderReact:after {
   background-color: #ffffff;
   height: 60px;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  /*opacity: 0.9;*/
+  /*filter: alpha(opacity=90);*/
 }
 /*.headerspace {
   background-image: url(./../assets/arthur_nameplate.jpg);
@@ -53,5 +53,13 @@ html, body{
   background-color: lightgray;
 }
 .navimain {
-  background-color: solid;
+  /*background-color: solid;*/
+}
+/*--- WELCOME ---*/
+.profileimg {
+  text-align: center;
+}
+.profileimg img{
+  width: 150px;
+  height: 150px;
 }
